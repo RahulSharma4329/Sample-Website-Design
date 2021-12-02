@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT.woff') format('woff');
+}
+
+/* Very small devices */
+@media (min-width: 280px) and (max-width: 390px) {
+
+    .news,
+    .carousel-caption h2 {
+        font-size: 0.35em;
+    }
+    .carousel-caption p{
+        font-size: 0.15em;
+    }
+
+    .joinbtn {
+        font-size: 0.65em;
+    }
+
+    .btncustom {
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+    .TitleBar,.IconTab,.bTitle{
+        font-size: xx-small;
+    }
+    .col-3{
+        padding: 0em;
+    }
+    .container{
+        padding: 0px 12px;
+    }
+    .caption{
+        font-size: xx-small;
+    }
+    .news{
+        padding-top: 0em;
+    padding-bottom: 0em;
+    }
+    .bTitle{
+        padding: 0.3em;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 544px) {
+
+    .news,
+    .carousel-caption h2{
+        font-size: 0.75em;
+    }
+    .carousel-caption p{
+        font-size: 0.45em;
+    }
+
+    .joinbtn {
+        font-size: 0.75em;
+    }
+
+    .logo {
+        font-size: 1.4em;
+    }
+
+    .TitleBar, .IconTab,.bTitle{
+        font-size: x-small;
+    }
+    .col-3{
+        padding: 1em;
+    }
+    .caption{
+        font-size: xx-small;
+    }
+    .container{
+        padding: 0px 12px;
+    }
+    .news{
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+    .bTitle{
+        padding: 0.35em;
+    }
+
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) and (max-width: 768px) {
+
+    .news,
+    .carousel-caption h2{
+        font-size: 1em;
+    }
+    .carousel-caption p{
+        font-size: 0.65em;
+    }
+
+    .joinbtn {
+        font-size: 1em;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .TitleBar,.IconTab,.bTitle{
+        font-size: medium;
+    }
+    .news{
+        padding-top: 0em;
+    padding-bottom: 0em;
+    }
+    .bTitle{
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .news,
+    .carousel-caption h2{
+        font-size: 1.5em;
+    }
+    .carousel-caption p{
+        font-size: 1em;
+    }
+
+    .joinbtn {
+        font-size: 1.3em;
+    }
+
+    .btncustom {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .logo {
+        font-size: 2em;
+    }
+    .news{
+        
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    }
+    .bTitle{
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .news,
+    .carousel-caption h2{
+        font-size: 2em;
+    }
+    .carousel-caption p{
+        font-size: 1.2em;
+    }
+
+    .joinbtn {
+        font-size: 1.5em;
+    }
+
+    .logo {
+        font-size: 2em;
+    }
+
+    .Para {
+        padding: 0em 17em;
+    }
+    .news{
+        
+        padding-top: 0.5em;
+        padding-bottom:0.5em;
+    }
+    .bTitle{
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .news,
+    .carousel-caption h2{
+        font-size: 1.5em;
+    }
+    .carousel-caption p{
+        font-size: 1.5em;
+    }
+
+    .joinbtn {
+        font-size: 1.7em;
+    }
+
+    .Para {
+        padding: 0em 17em;
+    }
+    .logo {
+        font-size: 2em;
+    }
+    .news{
+        
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    .bTitle{
+        padding-top: 0.45em;
+        padding-bottom: 0.45em;
+    }
+}
+
+.bg-custom-2 {
+    background-image: linear-gradient(30deg, #47ad5d 0%, #1799cc 100%);
+}
+
+.logo {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Great Vibes', cursive;
+    margin: 0em;
+    padding: 0em;
+    text-shadow: -2px 2px 5px rgb(0, 0, 0);
+}
+
+.navbar-nav {
+    padding-left: 23px;
+}
+
+.form-inline {
+    padding: 0px 23px;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.801);
+    text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.37);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    font-family: 'Bahnschrift Regular', serif;
+}
+.carousel-caption p,h2{
+    font-family: 'Bahnschrift Regular', serif;
+    margin-bottom: 0em;
+}
+
+.news {
+    background-image: linear-gradient(90deg, #fd349c 10%, #ff8400 100%);
+    color: white;
+    align-items: center;
+    max-width: 98%;
+    font-family: 'Arvo', serif;
+    /* text-shadow: -2px 1px 4px black; */
+    border-radius: 4px;
+    height: auto;
+}
+
+.btncustom {
+    display: flex;
+    align-items: center;
+    /* border: 0.02em solid black; */
+    border-radius: 45px;
+    /* height: 2em; */
+    font-family: 'Arvo', serif;
+    /* box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.486); */
+    padding: 0em 5em;
+}
+
+.SubHead {
+    margin-top: 3em;
+    color: rgb(255, 136, 0);
+    font-size: 1em;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    padding-top: 9px;
+}
+
+.head {
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: 'Arvo', serif;
+}
+
+.Para {
+
+    text-align: center;
+    color: rgb(70, 70, 70);
+    font-family: 'Bahnschrift Regular', serif;
+}
+
+.TitleBar {
+    backdrop-filter: blur(2px);
+    margin: auto;
+    margin-bottom: 3em;
+    max-width: 95%;
+    padding: 0em;
+    border-radius: 0.25em;
+}
+
+.custicons {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2em;
+}
+.custtitle{
+    width: 100%;
+    height: auto;
+}
+.IconTab {
+    font-family: 'Bahnschrift Regular', serif;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.captio{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.bTitle{
+    background-image: linear-gradient(90deg,#9c3a7f 0%, #4b031b 100%);
+    border-radius: 3px;
+    font-family: 'Arvo', serif;
+    max-width: 98%;
+}
+.bTitle span{
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.bTitle p{
+    font-size: 0.8em;
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+}
